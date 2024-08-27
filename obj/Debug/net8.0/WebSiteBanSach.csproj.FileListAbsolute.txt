@@ -256,3 +256,4 @@ D:\CuaHangSach\WebSiteBanSach\bin\Debug\net8.0\System.Text.Json.dll
 D:\CuaHangSach\WebSiteBanSach\obj\Debug\net8.0\WebSiteBanSach.MvcApplicationPartsAssemblyInfo.cs
 D:\CuaHangSach\WebSiteBanSach\bin\Debug\net8.0\X.PagedList.dll
 D:\CuaHangSach\WebSiteBanSach\bin\Debug\net8.0\X.Web.PagedList.dll
+D:\CuaHangSach\WebSiteBanSach\obj\Debug\net8.0\WebSiteBanSach.sourcelink.json

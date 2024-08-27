@@ -1,0 +1,84 @@
+﻿@model WebSiteBanSach.Models.Sach
+
+@{
+    ViewData["Title"] = "Thêm Mới";
+    Layout = "~/Views/Shared/AdminLayOut.cshtml";
+}
+
+<h1>Thêm Mới</h1>
+
+<h4>Sách</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="ThemMoi" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="TenSach" class="control-label"></label>
+                <input asp-for="TenSach" class="form-control" />
+                <span asp-validation-for="TenSach" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="GiaBan" class="control-label"></label>
+                <input asp-for="GiaBan" class="form-control" />
+                <span asp-validation-for="GiaBan" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="MoTa" class="control-label"></label>
+                <input asp-for="MoTa" class="form-control" />
+                <span asp-validation-for="MoTa" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="AnhBia" class="control-label"></label>
+                <input type="file" asp-for="AnhBia" class="form-control" />
+                <span asp-validation-for="AnhBia" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NgayCapNhat" class="control-label"></label>
+                <input asp-for="NgayCapNhat" type="date" class="form-control" />
+                <span asp-validation-for="NgayCapNhat" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="SoLuongTon" class="control-label"></label>
+                <input asp-for="SoLuongTon" class="form-control" />
+                <span asp-validation-for="SoLuongTon" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="MaNxb" class="control-label"></label>
+                <select asp-for="MaNxb" asp-items="ViewBag.MaNXB" class="form-control">
+                    <option value="">Chọn Nhà Xuất Bản</option>
+                </select>
+                <span asp-validation-for="MaNxb" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="MaChuDe" class="control-label"></label>
+                <select asp-for="MaChuDe" asp-items="ViewBag.MaChuDe" class="form-control">
+                    <option value="">Chọn Chủ Đề</option>
+                </select>
+                <span asp-validation-for="MaChuDe" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Moi" class="control-label"></label>
+                <input asp-for="Moi" class="form-control" />
+                <span asp-validation-for="Moi" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Tạo Mới" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Quay lại danh sách</a>
+</div>

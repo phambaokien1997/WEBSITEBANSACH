@@ -27,9 +27,9 @@ public partial class QuanLyBanSachContext : DbContext
 
     public virtual DbSet<Sach> Saches { get; set; }
 
-    public virtual DbSet<TacGium> TacGia { get; set; }
+    public virtual DbSet<TacGia> TacGia { get; set; }
 
-    public virtual DbSet<ThamGium> ThamGia { get; set; }
+    public virtual DbSet<ThamGia> ThamGia { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
@@ -141,7 +141,7 @@ public partial class QuanLyBanSachContext : DbContext
                 .HasConstraintName("FK_Sach_NhaXuatBan");
         });
 
-        modelBuilder.Entity<TacGium>(entity =>
+        modelBuilder.Entity<TacGia>(entity =>
         {
             entity.HasKey(e => e.MaTacGia);
 
@@ -152,7 +152,7 @@ public partial class QuanLyBanSachContext : DbContext
             entity.Property(e => e.TenTacGia).HasMaxLength(50);
         });
 
-        modelBuilder.Entity<ThamGium>(entity =>
+        modelBuilder.Entity<ThamGia>(entity =>
         {
             entity.HasKey(e => new { e.MaSach, e.MaTacGia });
 

@@ -89,7 +89,7 @@
 				@*Hộp thoại tìm kiếm*@
 
 				<div id="txtTimKiem">
-					@using (Html.BeginForm())
+					@using (Html.BeginForm("KetQuaTimKiem", "TimKiem", FormMethod.Post))
 					{
 						@Html.TextBox("txtTimKiem", "", htmlAttributes: new { @class = "TextBoxTimKiem", @placeholder = "Nhập vào từ khóa cần tìm" })
 						<div class="divHinhAnhTimKiem">

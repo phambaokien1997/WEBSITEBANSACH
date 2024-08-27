@@ -39,6 +39,7 @@ namespace WebSiteBanSach.Controllers
                 ChuDes = chude.Where(cd=>cd.MaChuDe == x.MaChuDe).Select(cd=> new ChuDeVM { MaChuDe = cd.MaChuDe,TenChuDe=cd.TenChuDe }).FirstOrDefault()
             }).ToList();
             var sachVMlistPaged = sachChuDeVM.ToPagedList(pageNumber, pageSize);
+            
 			return View(sachVMlistPaged);
         }
 

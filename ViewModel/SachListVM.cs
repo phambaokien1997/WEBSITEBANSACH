@@ -11,7 +11,7 @@ namespace WebSiteBanSach.ViewModel
 		public List<ChuDe> ChuDes { get; set; }
         public List<NXBVM> NXBes { get; set; }
         public List<GioHang> GioHangs { get; set; }
-        public IPagedList<SachVaChuDe> SachVaChuDes { get;set; }
+        public List<SachVaChuDe> SachVaChuDes { get;set; }
     }
     
 }
