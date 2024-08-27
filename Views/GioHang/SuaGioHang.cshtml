@@ -1,0 +1,90 @@
+﻿@using WebSiteBanSach.Models;
+@model List<GioHang>
+@{
+	ViewData["Title"] = "GioHang";
+	Layout = "~/Views/Shared/NguoiDungLayout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+<style>
+	.table-bordered {
+		border-collapse: collapse; /* Đảm bảo viền không bị gãy và nhìn mượt mà */
+		width: 100%; /* Đảm bảo bảng chiếm toàn bộ chiều rộng của vùng chứa */
+	}
+
+		.table-bordered th, .table-bordered td {
+			border: solid 2px #ddd; /* Viền của các ô */
+			padding: 8px; /* Khoảng cách giữa nội dung và viền */
+			text-align: left; /* Căn chỉnh văn bản bên trái */
+		}
+
+		.table-bordered th {
+			background-color: #f4f4f4; /* Màu nền cho các tiêu đề cột */
+		}
+</style>
+</style>
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th>Mã Sách</th>
+			<th>Tên Sách</th>
+			<th>Ảnh Bìa</th>
+			<th>Đơn Giá</th>
+			<th>Số Lượng</th>
+			<th>Thành Tiền</th>
+		</tr>
+	</thead>
+	<tbody>
+		@if (Model != null && Model.Any())
+		{
+			foreach (var item in Model)
+			{
+				<tr>
+					<td>@Html.DisplayFor(modelItem => item.iMaSach)</td>
+					<td>@Html.DisplayFor(modelItem => item.sTenSach)</td>
+					<td>
+						@if (!string.IsNullOrEmpty(item.sAnhBia))
+						{
+							<img src="@Url.Content("~/lib/HinhAnhSP/"+item.sAnhBia)" width="30" height="50" alt="Image">
+						}
+						else
+						{
+							<img src="@Url.Content("~/HinhAnhSP/default.jpg")" alt="Ảnh bìa mặc định" width="30" height="50" class="img-thumbnail" />
+						}
+					</td>
+					<td>@item.dDonGia?.ToString("N0") VNĐ</td>
+					@* Chỉnh sửa giỏ hàng gọi về action CapNhatGioHang *@
+					@using (Html.BeginForm("CapNhatGioHang", "GioHang", new { @iMaSP = item.iMaSach }))
+					{
+						<td>
+							@Html.TextBox("txtSoLuong", item.iSoLuong, new { @class = "form-control", @type = "number" })
+						</td>
+
+
+
+						<td>@item.ThanhTien?.ToString("N0") VNĐ</td>
+						<td>
+							<input type="submit" value="Cập nhật" />
+							<br />
+							@*Xóa giỏ hàng gọi về action XoaGioHang*@
+							@Html.ActionLink("Xóa Giỏ Hàng", "XoaGioHang", new { @iMaSP = item.iMaSach })
+						</td>
+
+					}
+					@* <td>
+					</td> *@
+				</tr>
+			}
+
+		}
+		else
+		{
+			<tr>
+				<td colspan="6" class="text-center">Giỏ hàng trống</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+
+

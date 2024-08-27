@@ -1,0 +1,65 @@
+﻿@using WebSiteBanSach.ViewModel;
+
+@model SachListVM
+
+@{
+	Layout = "~/Views/Shared/NguoiDungLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Index</title>
+	<style>
+		#divChuDe {
+			position: fixed;
+			bottom: 80px;
+			left: 18%
+		}
+	</style>
+</head>
+<body>
+	<div>
+		@if(Model.Sachs.Count == 0)
+		{
+			<h1>@ViewBag.Sach</h1>
+		}
+	</div>
+	<div>
+		@{
+			int i = 0;
+		}
+		@foreach (var item in Model.Sachs)
+		{
+			i++;
+			<div id="SanPham">
+				<div id="AnhBia">
+					<img src="@Url.Content("~/lib/HinhAnhSP/"+item.AnhBia)" width="100" height="150" />
+				</div>
+				<div id="TenSach">@item.TenSach</div>
+				<div id="DonGia">@item.GiaBan</div>
+				<div id="MoTa">@item.MoTa</div>
+				<a href="@Url.Action("XemChiTietTrongChuDe",new{ @masach=item.MaSach})">Xem Chi Tiết</a>.
+			</div>
+			if (i % 3 == 0)
+			{
+				<div style="clear:both"></div>
+			}
+		}
+
+	</div>
+	<div id="divChuDe">
+		@{
+			foreach (var item in Model.ChuDes)
+			{
+				<a href="/ChuDe/Index?machude=@item.MaChuDe" class="button button-submit">@item.TenChuDe</a>
+			}
+			<a href="/ChuDe/DanhMucChuDe" class="button button-submit">Chủ đề khác...</a>
+		}
+	</div>
+	
+	
+</body>
+</html>

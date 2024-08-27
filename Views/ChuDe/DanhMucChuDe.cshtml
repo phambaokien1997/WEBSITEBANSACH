@@ -1,0 +1,44 @@
+﻿@using WebSiteBanSach.ViewModel;
+@model List<ChuDeVM>
+@{
+	ViewData["Title"] = "DanhMucChuDe";
+	Layout = "~/Views/Shared/NguoiDungLayout.cshtml";
+}
+@* Hiển thị danh mục chủ đề
+ *@<h1>Danh Sách Tất Cả Các Chủ Đề</h1>
+<br />
+<div>
+	<style>
+		/* Đặt kích thước, màu sắc, và kiểu dáng chung cho tất cả các thẻ <a> với class "button" */
+		.button {
+			display: inline-block; /* Đảm bảo thẻ <a> có thể được định dạng như một nút */
+			padding: 10px 20px; /* Điều chỉnh kích thước của nút */
+			margin: 5px 0; /* Khoảng cách giữa các nút */
+			background-color: #007bff; /* Màu nền của nút */
+			color: white; /* Màu chữ của nút */
+			text-align: center; /* Căn giữa chữ trong nút */
+			text-decoration: none; /* Xóa gạch chân mặc định của thẻ <a> */
+			border-radius: 5px; /* Bo tròn các góc của nút */
+			font-size: 16px; /* Kích thước chữ */
+			line-height: 1.5; /* Khoảng cách giữa các dòng chữ */
+			transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu nền khi hover */
+		}
+
+			.button:hover {
+				background-color: #0056b3; /* Màu nền của nút khi hover */
+			}
+
+		/* Nếu bạn muốn đảm bảo rằng tất cả các thẻ <a> có cùng kích thước */
+		.button-submit {
+			width: 200px; /* Điều chỉnh chiều rộng của nút */
+			display: inline-block; /* Đảm bảo nút có kích thước cố định */
+			text-align: center; /* Căn giữa chữ trong nút */
+		}
+	</style>
+	@foreach (var item in Model)
+	{
+		<a href="/ChuDe/Index?machude=@item.MaChuDe" class="button button-submit">@item.TenChuDe</a>
+		<br />
+	}
+</div>
+

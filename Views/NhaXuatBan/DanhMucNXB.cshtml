@@ -1,0 +1,16 @@
+﻿@using WebSiteBanSach.ViewModel;
+@model SachListVM;
+@{
+	ViewData["Title"] = "DanhMucNXB";
+	Layout = "~/Views/Shared/NguoiDungLayout.cshtml";
+}
+
+<h1>DanhMucNXB</h1>
+<div>
+	@foreach (var item in Model.NXBes)
+	{
+		<div><a href="/NhaXuatBan/SachTheoNXB?MaNxb=@item.MaNxb">@item.TenNxb</a></div>
+	}
+</div>
+
+

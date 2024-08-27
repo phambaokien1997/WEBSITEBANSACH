@@ -1,0 +1,34 @@
+﻿@using WebSiteBanSach.Models;
+@model List<WebSiteBanSach.Models.Sach>
+
+@foreach (var item in Model)
+{
+	<div class="activity-list-update">
+		<img src="https://picsum.photos/50/50" alt="Image">
+		<p><strong>@item.TenSach</strong> updated his <a href="#">user profile</a>.</p>
+		<div class="clear"></div>
+	</div>
+}
+
+<h1 class="item-header">Sach Moi</h1>
+<div class="activity-list-update">
+	<img src="https://picsum.photos/50/50" alt="Image">
+	<p><strong>Sách Lập Trình</strong> updated his <a href="#">user profile</a>.</p>
+	<div class="clear"></div>
+</div>
+
+<div class="activity-list-update">
+	<img src="https://picsum.photos/50/50" alt="Image">
+	<p><strong>Sách Giáo Khoa Mới</strong> uploaded a new file <a href="#">new-design.png</a></p>
+	<div class="clear"></div>
+</div>
+
+<div class="activity-list-update">
+	<img src="https://picsum.photos/50/50" alt="Image">
+	<p><strong>Các Loại Sách Khác</strong> uploaded a new file <a href="#">new-design.png</a></p>
+	<div class="clear"></div>
+</div>
+
+<a href="#" class="item-footer green">
+	New Book
+</a>

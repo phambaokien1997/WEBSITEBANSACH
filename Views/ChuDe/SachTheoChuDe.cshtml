@@ -1,0 +1,27 @@
+﻿@using WebSiteBanSach.ViewModel;
+@model List<SachVM>
+@{
+	ViewBag.Title = "XemChiTiet";
+	Layout = "~/Views/Shared/NguoiDungLayout.cshtml";
+}
+
+<h1>Sách Theo Chủ Đề</h1>
+@foreach (var item in Model)
+{
+	<div class="activity-list-update">
+		<img src="@Url.Content("~/lib/HinhAnhSP/"+item.AnhBia)" width="30" height="50" alt="Image">
+		@*Nếu tên sách dài hơn 30 ký tự thì chúng ta sẽ cắt tên sách ra lấy từ ký tự 0 cho đến ký tự 30*@
+		<p>
+			<strong title="@item.TenSach">
+				Tiêu Đề:@item.TenSachVM
+			</strong>
+
+			<br />
+			<a href="@Url.Action("XemChiTiet",new{ @masach=item.MaSach})">Xem Chi Tiết</a>.
+		</p>
+		<div class="clear"></div>
+
+	</div>
+}
+
+

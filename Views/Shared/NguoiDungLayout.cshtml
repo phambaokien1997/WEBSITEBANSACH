@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>@ViewBag.Title</title>
+
+	<!-- CSS của free template -->
+	<link href="~/css/nguoidungcsslayout/fonts.css" rel="stylesheet" />
+	<link href="~/css/nguoidungcsslayout/screen.css" rel="stylesheet" />
+	<!-- CSS do tự thiết kế -->
+	<link href="~/css/nguoidungcsslayout/nguoidungcsslayout.css" rel="stylesheet" />
+	<!-- Font-awesome CSS -->
+	<link href="~/css/fontawesome/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	<!-- Bootstrap CSS (nếu bạn sử dụng Bootstrap) -->
+	<!-- <link href="..." rel="stylesheet" /> -->
+	<!-- Nivo Slider CSS -->
+	<link href="~/css/nivoslider/nivo-slider.css" rel="stylesheet" />
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<!-- Nivo Slider JavaScript -->
+	<!-- Bootstrap JavaScript (nếu cần) -->
+	<!-- <script src="..."></script> -->
+	<!-- Các script JavaScript khác của bạn -->
+	<!-- <script src="..."></script> -->
+
+</head>
+<body>
+	<div id="ToanTrang">
+		<section class="blank">
+			<div class="flash">
+				<div class="icDienThoai">
+					<i class="fa fa-phone-square" aria-hidden="true"></i>
+					(08) 1900-1009
+				</div>
+				@* Tạo div đăng ký đăng nhập *@
+				<div class="DangKyDangNhap">
+					<span id="gioHangPartialContainer">
+						@await Html.PartialAsync("/Views/GioHang/GioHangPartial.cshtml")
+					</span>
+					<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+					<script>
+						$(document).ready(function () {
+							// Hàm để cập nhật phần giỏ hàng
+							function updateGioHangPartial() {
+								$.ajax({
+									url: '@Url.Action("GioHangPartial", "GioHang")',
+									type: 'GET',
+									success: function (data) {
+										$("#gioHangPartialContainer").html(data);
+									},
+									error: function (xhr, status, error) {
+										console.error('Error:', error);
+									}
+								});
+							}
+
+							// Gọi hàm cập nhật khi trang tải
+							updateGioHangPartial();
+
+							// Gọi hàm cập nhật khi có sự kiện thêm hàng vào giỏ
+							$(document).on('submit', 'form[data-ajax="true"]', function (event) {
+								event.preventDefault(); // Ngăn chặn hành vi mặc định của form
+
+								$.ajax({
+									url: $(this).attr("action"),
+									type: $(this).attr("method"),
+									data: $(this).serialize(),
+									success: function (data) {
+										updateGioHangPartial(); // Cập nhật phần giỏ hàng
+									},
+									error: function (xhr, status, error) {
+										console.error('Error:', error);
+									}
+								});
+							});
+						});
+					</script>
+					<i class="fa fa-address-card" aria-hidden="true"></i>
+					@Html.ActionLink("Đăng ký", "DangKy", "NguoiDung", null, new { @class = "DangKy" })
+					@* <a href="NguoiDung/DangKy" class="DangKy">Đăng ký</a> *@
+					<i class="fa fa-sign-in" aria-hidden="true"></i>
+					@Html.ActionLink("Đăng nhập", "DangNhap", "NguoiDung", null, htmlAttributes: new { @class = "DangNhap" })
+				</div>
+			</div>
+			@*Xây dựng div menu Header*@
+			<div class="flash success" id="divDanhMuc">
+				@*Hộp thoại tìm kiếm*@
+
+				<div id="txtTimKiem">
+					@using (Html.BeginForm())
+					{
+						@Html.TextBox("txtTimKiem", "", htmlAttributes: new { @class = "TextBoxTimKiem", @placeholder = "Nhập vào từ khóa cần tìm" })
+						<div class="divHinhAnhTimKiem">
+							<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</div>
+					}
+				</div>
+				@*Menu bên phải header*@
+				<ul class="navMenu">
+					<li><a href="#">Trang chủ</a></li>
+					<li><a href="#">Giới thiệu</a></li>
+					<li><a href="#">Liên hệ</a></li>
+					<li><a href="#">Hướng dẫn</a></li>
+					<li><a href="#">Sách</a></li>
+
+				</ul>
+			</div>
+		</section>
+		@*Div Body*@
+		<div id="NoiDung">
+			@RenderBody()
+
+		</div>
+		@*Tạo div nhà xuất bản*@
+		<footer style="width= 100%">
+
+			<div class="footer-content">
+				<a href="/Home/Index" class="button button-buy">Chào Mừng Bạn Đến Với Thế Giới Sách Của Chúng Tôi - Sách Là Nguồn Tri Thức Bất Tận</a>
+			</div>
+
+			<style>
+				footer {
+					left: 25%;
+					width: 50%;
+					/* Đặt chiều rộng của footer là 100% */
+					background-color: transparent;
+					padding: 10px 0; /* Padding để thêm khoảng cách trên và dưới của nội dung */
+					text-align: center; /* Căn giữa nội dung trong footer */
+				}
+
+				.footer-content {
+					
+					width: 50%; /* Đặt chiều rộng của phần nội dung bên trong footer */
+					max-width: 800px; /* Đặt chiều rộng tối đa của phần nội dung */
+					margin: 0 auto; /* Căn giữa phần nội dung */
+				}
+
+				.button-buy {
+					display: inline-flex; /* Sử dụng inline-flex để căn giữa nội dung */
+					justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+					align-items: center; /* Căn giữa nội dung theo chiều dọc */
+					width: 100%; /* Đặt chiều rộng của nút là 100% của phần tử chứa */
+					max-width: 600px; /* Chiều rộng tối đa của nút */
+					height: 100%; /* Chiều cao của nút */
+					font-size: 16px; /* Kích thước chữ */
+					text-decoration: none; /* Xóa gạch chân */
+					color: white; /* Màu chữ */
+					background-color: #b6ff00; /* Màu nền của nút */
+					border-radius: 5px; /* Bo góc nút */
+					padding: 0 15px; /* Padding trái và phải của nút */
+					box-sizing: border-box; /* Đảm bảo padding không làm nút vượt quá chiều rộng */
+				}
+			</style>
+		</footer>
+		<script>
+			$(document).ready(function () {
+				function checkFooterVisibility() {
+					var windowHeight = $(window).height();
+					var documentHeight = $(document).height();
+					var scrollTop = $(window).scrollTop();
+
+					if (windowHeight >= documentHeight) {
+						$('footer').fadeIn(); // Hiển thị footer nếu không thể cuộn
+					} else if (scrollTop + windowHeight >= documentHeight) {
+						$('footer').fadeIn(); // Hiển thị footer khi cuộn xuống cuối trang
+					} else {
+						$('footer').fadeOut(); // Ẩn footer nếu không ở cuối trang
+					}
+				}
+
+				// Kiểm tra khi tài liệu sẵn sàng và khi cuộn
+				checkFooterVisibility();
+				$(window).scroll(checkFooterVisibility);
+
+				// Kiểm tra khi thay đổi kích thước cửa sổ
+				$(window).resize(checkFooterVisibility);
+			});
+		</script>
+		<script src="~/js/nivoslider/jquery.nivo.slider.pack.js"></script>
+		<script src="~/js/nivoslider/jquery.nivo.slider.js"></script>
+		
+	</div>
+</body>
+</html>

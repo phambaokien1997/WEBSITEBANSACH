@@ -1,0 +1,16 @@
+﻿@using WebSiteBanSach.ViewModel;
+@model SachVM
+@{
+    ViewData["Title"] = "XemChiTietTrongChuDe";
+    Layout = "~/Views/Shared/NguoiDungLayout.cshtml";
+}
+
+<h1>XemChiTietTrongChuDe</h1>
+<div>
+    @*Thong Tin Sach Chi Tiet*@
+    <div><img src="@Url.Content("~/lib/HinhAnhSP/"+Model.AnhBia)" width="500px" height="500px"/></div>
+    <div>Mã Sách: @Model.MaSach</div>
+    <div>Tên Sách: @Model.TenSach</div>
+    <div>Thông Tin: @Model.MoTa</div>
+</div>
+

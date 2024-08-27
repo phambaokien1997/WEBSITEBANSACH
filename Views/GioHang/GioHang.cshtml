@@ -1,0 +1,70 @@
+﻿@using WebSiteBanSach.Models;
+@model List<GioHang>
+@{
+    ViewData["Title"] = "GioHang";
+    Layout = "~/Views/Shared/NguoiDungLayout.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Mã Sách</th>
+            <th>Tên Sách</th>
+            <th>Ảnh Bìa</th>
+            <th>Đơn Giá</th>
+            <th>Số Lượng</th>
+            <th>Thành Tiền</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.iMaSach)</td>
+                    <td>@Html.DisplayFor(modelItem => item.sTenSach)</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.sAnhBia))
+                        {
+                            <a href="/Sach/XemChiTiet?masach=@item.iMaSach&machude=@item.MaChuDe"><img src="@Url.Content("~/lib/HinhAnhSP/"+item.sAnhBia)" width="30" height="50" alt="Image"></a>
+                        }
+                        else
+                        {
+                            <img src="@Url.Content("~/HinhAnhSP/default.jpg")" alt="Ảnh bìa mặc định" width="30" height="50" class="img-thumbnail" />
+                        }
+                    </td>
+                    <td>@item.dDonGia?.ToString("N0") VNĐ</td>
+                    <td>@Html.DisplayFor(modelItem => item.iSoLuong)</td>
+                    <td>@item.ThanhTien?.ToString("N0") VNĐ</td>
+                </tr>
+                
+            }
+            <tr>
+                <td colspan="6" style="text-align:right;color:cornflowerblue">
+                    @Html.ActionLink("Chỉnh sửa giỏ hàng","SuaGioHang")
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" style="text-align:right;color:darkkhaki">
+                    @using (Html.BeginForm("DatHang","GioHang"))
+                    {
+                        <input type="submit" value="Đặt Hàng"/>
+                    }
+                </td>
+
+            </tr>
+        }
+        else
+        {
+            <tr>
+                <td colspan="6" class="text-center">Giỏ hàng trống</td>
+            </tr>
+        }
+    </tbody>
+</table>
+    
+
+

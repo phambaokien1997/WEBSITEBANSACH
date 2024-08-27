@@ -1,0 +1,92 @@
+﻿@model WebSiteBanSach.Models.KhachHang
+
+@{
+	ViewData["Title"] = "DangKy";
+	Layout = "~/Views/Shared/NguoiDungLayout.cshtml";
+}
+<div style="margin-left:500px">
+	<h1>DangKy</h1>
+
+	<h4>KhachHang</h4>
+	<hr />
+
+	<div class="row">
+		<div class="col-md-4">
+			<form asp-action="DangKy">
+				<div asp-validation-summary="All" class="text-danger"></div>
+				@* <div class="form-group">
+				<label asp-for="MaKh" class="control-label"></label>
+				<input asp-for="MaKh" class="form-control" />
+				<span asp-validation-for="MaKh" class="text-danger"></span>
+				</div> *@
+				<div class="form-group">
+					<label asp-for="HoTen"  class="control-label"></label>
+					<input asp-for="HoTen" id="HoTen" class="form-control" />
+					<span asp-validation-for="HoTen" id="HoTenError" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="TaiKhoan" class="control-label"></label>
+					<input asp-for="TaiKhoan" class="form-control" />
+					<span asp-validation-for="TaiKhoan" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="MatKhau" class="control-label"></label>
+					<input asp-for="MatKhau" class="form-control" />
+					<span asp-validation-for="MatKhau" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Email" class="control-label"></label>
+					<input asp-for="Email" class="form-control" />
+					<span asp-validation-for="Email" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="DiaChi" class="control-label"></label>
+					<input asp-for="DiaChi" class="form-control" />
+					<span asp-validation-for="DiaChi" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="DienThoai" class="control-label"></label>
+					<input asp-for="DienThoai" class="form-control" />
+					<span asp-validation-for="DienThoai" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="GioiTinh" class="control-label"></label>
+					<input asp-for="GioiTinh" class="form-control" />
+					<span asp-validation-for="GioiTinh" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="NgaySinh" class="control-label"></label>
+					<input asp-for="NgaySinh" id="NgaySinh" class="form-control" />
+					<span asp-validation-for="NgaySinh" id="NgaySinhError" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<input id="btnSubmit" type="submit" value="Create" class="btn btn-primary" />
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div>
+		<a asp-controller="Home" asp-action="Index">Back to List</a>
+	</div>
+</div>
+@* <script type="text/javascript">
+	$('#btnSubmit').click(function () {
+		if ($('#HoTen').val() == '') {
+			$('HoTenError').text('Bạn cần nhập họ tên đầy đủ của mình');
+			return false;
+		}
+		else {
+			$('HoTenError').text('');
+		}
+		if ($('#NgaySinh').val() == '') {
+			$('NgaySinhError').text('Bạn cần nhập ngày sinh đầy đủ của mình');
+			return false;
+		}
+		else {
+			$('NgaySinhError').text('Bạn cần nhập ngày sinh đầy đủ của mình');
+		}
+	});
+	
+</script> *@
+

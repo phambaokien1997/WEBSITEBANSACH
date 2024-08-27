@@ -1,0 +1,149 @@
+﻿@using WebSiteBanSach.ViewModel;
+@using X.PagedList;
+@using X.Web.PagedList;
+@model IPagedList<SachVaChuDe>
+<link href="~/css/trangchucss/trangchucss.css" rel="stylesheet" />
+<section class="">
+<section style="height: 500px; background-color:aliceblue">
+	<div id="divMenuLeft">
+		<div class="activity">
+			<div id="divSachMoi" style="height: auto"></div>
+
+			<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					// Gọi AJAX khi trang tải xong
+					$.ajax({
+						url: '@Url.Action("SachMoiPartial", "Sach")', // URL của action trả về Partial View
+						type: 'GET',
+						success: function (result) {
+							// Chèn nội dung vào phần tử #divSachMoi
+							$('#divSachMoi').html(result);
+						},
+						error: function (xhr, status, error) {
+							console.log('Error:', error);
+						}
+					});
+				});
+			</script>
+		</div>
+	</div>
+	<div id="slider" class="nivoSlider">
+		<img src="~/lib/hinhanh/anh1.jpg" />
+		<img src="~/lib/hinhanh/anh2.jpg" />
+		<img src="~/lib/hinhanh/anh3.jpg" />
+	</div>
+	<div style="clear:both"></div>
+	<script src="/js/jquery-3.6.0.min.js"></script>
+	<script src="/js/nivoslider/jquery.nivo.slider.pack.js"></script>
+	<script src="/js/nivoslider/jquery.nivo.slider.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('#slider').nivoSlider({
+				controlNav: false,
+				nextText: '',
+				prevText: ''
+			});
+		});
+	</script>
+</section>
+<section style="background-color:cadetblue">
+	<div id="divBody">
+		@{
+			int i = 0;
+		}
+		@foreach (var item in Model)
+		{
+			i++;
+			<div id="SanPham">
+				<div id="AnhBia">
+					<img src="@Url.Content("~/lib/HinhAnhSP/"+item.Sachs.AnhBia)" width="100" height="150" />
+				</div>
+				<div id="TenSach">@item.Sachs.TenSach</div>
+				<div id="DonGia">@item.Sachs.GiaBan</div>
+				<div id="MoTa">@item.Sachs.MoTa</div>
+				<div id="Chude">@item.ChuDes.TenChuDe</div>
+				<a href="@Url.Action("XemChiTiet","Sach",new{ @masach=item.Sachs.MaSach, @machude = item.ChuDes.MaChuDe})">Xem Chi Tiết</a>.
+			</div>
+			if (i % 3 == 0)
+			{
+				<div style="clear:both"></div>
+			}
+		}
+	</div>
+	<div style="clear:both"></div>
+	@*Tạo Link Liên Kết Các Trang*@
+	<div class="MenuTrang">
+	Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+	@Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+	</div>
+	<style>
+		.MenuTrang li{
+			display: inline;
+		}
+	</style>
+</section>
+<section style="background-color:cornflowerblue">
+	<div>
+		<div id="divChuDe">
+			<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					// Gọi AJAX khi trang tải xong
+					$.ajax({
+						url: '@Url.Action("ChuDePartial", "ChuDe")', // URL của action trả về Partial View
+						type: 'GET',
+						success: function (result) {
+							// Chèn nội dung vào phần tử #divSachMoi
+							$('#divChuDe').html(result);
+						},
+						error: function (xhr, status, error) {
+							console.log('Error:', error);
+						}
+					});
+				});
+			</script>
+		</div>
+	</div>
+</section>
+<section class="blank items" style="background-color:purple; border-radius: 10px;overflow: hidden; ">
+	<div class="item">
+		<div id="divNhaXuatBan" style="background-color:purple">
+			<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$.ajax({
+						url: '@Url.Action("NhaXuatBanPartial", "NhaXuatBan")',
+						type: 'GET',
+						success: function (result) {
+							$('#divNhaXuatBan').html(result);
+						},
+						error: function (xhr, status, error) {
+							console.log('Error:', error);
+						}
+					});
+				});
+			</script>
+		</div>
+
+		<div><img src="https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg" alt="Books" style="width:100%; height:auto;"></div>
+		<div id="divRight" style="background-color:dimgray">
+	<div>
+		**Chúng tôi tin rằng mỗi cuốn sách đều có một câu chuyện để kể, một thế giới để mở ra và một tâm hồn để chạm đến. Tại [Tên Cửa Hàng], chúng tôi không chỉ cung cấp những cuốn sách hay mà còn mong muốn truyền cảm hứng và niềm đam mê đọc sách đến mọi độc giả. Chúng tôi hiểu rằng, trong từng trang giấy, bạn không chỉ tìm thấy kiến thức mà còn có cơ hội để khám phá những chân trời mới, để sống những cuộc đời khác và để tìm thấy sự bình yên trong những phút giây yên lặng.
+
+		Chúng tôi lựa chọn cẩn thận từng cuốn sách để đảm bảo rằng bạn luôn có những lựa chọn tốt nhất. Sứ mệnh của chúng tôi là làm cho mỗi lần bạn mở sách đều trở thành một hành trình kỳ diệu, và mỗi trang giấy đều chứa đựng những khoảnh khắc đáng nhớ. Hãy để chúng tôi đồng hành cùng bạn trên hành trình khám phá tri thức và cảm xúc qua từng cuốn sách. Cảm ơn bạn đã tin tưởng và ủng hộ chúng tôi. Chúc bạn những giờ phút đọc sách thú vị và bổ ích!**
+
+	</div>
+	
+	
+	
+
+</section style="background-color:dimgray">
+
+</div>
+</section>
+
+
+
+
+

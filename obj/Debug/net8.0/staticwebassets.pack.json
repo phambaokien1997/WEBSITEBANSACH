@@ -1,0 +1,1173 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\README.md",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\README.md"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\calendar.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\calendar.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\chart.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\chart.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\bootstrap-responsive.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\bootstrap-responsive.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\bootstrap-responsive.min.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\bootstrap-responsive.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\chosen.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\chosen.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\elfinder.min.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\elfinder.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\elfinder.theme.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\elfinder.theme.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\font-awesome-ie7.min.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\font-awesome-ie7.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\fullcalendar.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\glyphicons.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\glyphicons.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\halflings.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\halflings.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\ie.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\ie.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\ie9.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\ie9.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\jquery-ui-1.8.21.custom.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\jquery-ui-1.8.21.custom.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\jquery.cleditor.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\jquery.cleditor.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\jquery.gritter.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\jquery.gritter.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\jquery.iphone.toggle.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\jquery.iphone.toggle.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\jquery.noty.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\jquery.noty.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\noty_theme_default.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\noty_theme_default.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\style-forms.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\style-forms.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\style-responsive.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\style-responsive.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\style.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\style.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\uniform.default.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\uniform.default.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\css\\uploadify.css",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\css\\uploadify.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\file-manager.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\file-manager.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\font\\fontawesome-webfont-0.eot",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\font\\fontawesome-webfont-0.eot"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\font\\fontawesome-webfont-62877.eot",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\font\\fontawesome-webfont-62877.eot"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\font\\fontawesome-webfont-62877.ttf",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\font\\fontawesome-webfont-62877.ttf"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\font\\fontawesome-webfont-62877.woff",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\font\\fontawesome-webfont-62877.woff"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\font\\glyphicons-regular-0.eot",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\font\\glyphicons-regular-0.eot"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\font\\glyphicons-regular.eot",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\font\\glyphicons-regular.eot"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\font\\glyphicons-regular.svg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\font\\glyphicons-regular.svg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\font\\glyphicons-regular.ttf",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\font\\glyphicons-regular.ttf"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\font\\glyphicons-regular.woff",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\font\\glyphicons-regular.woff"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\font\\glyphiconshalflings-regular-0.eot",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\font\\glyphiconshalflings-regular-0.eot"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\font\\glyphiconshalflings-regular.eot",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\font\\glyphiconshalflings-regular.eot"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\font\\glyphiconshalflings-regular.svg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\font\\glyphiconshalflings-regular.svg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\font\\glyphiconshalflings-regular.ttf",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\font\\glyphiconshalflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\font\\glyphiconshalflings-regular.woff",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\font\\glyphiconshalflings-regular.woff"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\form.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\form.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\gallery.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\gallery.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\icon.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\icon.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\arrows-active.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\arrows-active.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\arrows-normal.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\arrows-normal.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\avatar.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\avatar.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\bg-input-focus.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\bg-input-focus.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\bg-input.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\bg-input.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\bg-login.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\bg-login.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\browser-chrome-big.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\browser-chrome-big.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\browser-firefox-big.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\browser-firefox-big.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\browser-ie.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\browser-ie.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\browser-opera.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\browser-opera.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\browser-safari.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\browser-safari.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\buttons.gif",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\buttons.gif"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\chat-left-metro.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\chat-left-metro.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\chat-left-metro@2x.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\chat-left-metro@2x.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\chat-left.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\chat-left.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\chat-left@2x.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\chat-left@2x.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\chat-right-metro.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\chat-right-metro.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\chat-right-metro@2x.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\chat-right-metro@2x.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\chat-right.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\chat-right.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\chat-right@2x.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\chat-right@2x.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\chosen-sprite.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\chosen-sprite.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\close-button-white.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\close-button-white.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\close-button.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\close-button.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\crop.gif",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\crop.gif"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\dialogs.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\dialogs.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\gallery\\photo1.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\gallery\\photo1.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\gallery\\photo10.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\gallery\\photo10.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\gallery\\photo11.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\gallery\\photo11.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\gallery\\photo12.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\gallery\\photo12.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\gallery\\photo13.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\gallery\\photo13.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\gallery\\photo2.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\gallery\\photo2.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\gallery\\photo3.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\gallery\\photo3.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\gallery\\photo4.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\gallery\\photo4.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\gallery\\photo5.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\gallery\\photo5.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\gallery\\photo6.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\gallery\\photo6.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\gallery\\photo7.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\gallery\\photo7.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\gallery\\photo8.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\gallery\\photo8.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\gallery\\photo9.jpg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\gallery\\photo9.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\glyphicons-halflings-white.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\glyphicons-halflings-white.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\glyphicons-halflings.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\glyphicons-halflings.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\glyphicons-white.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\glyphicons-white.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\glyphicons-white.svg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\glyphicons-white.svg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\glyphicons.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\glyphicons.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\glyphicons.svg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\glyphicons.svg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\glyphicons_halflings-white.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\glyphicons_halflings-white.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\glyphicons_halflings-white.svg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\glyphicons_halflings-white.svg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\glyphicons_halflings.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\glyphicons_halflings.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\glyphicons_halflings.svg",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\glyphicons_halflings.svg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\icons-big.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\icons-big.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\icons-small.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\icons-small.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\iphone-style-checkboxes\\off-63584.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\iphone-style-checkboxes\\off-63584.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\iphone-style-checkboxes\\on-63584.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\iphone-style-checkboxes\\on-63584.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\iphone-style-checkboxes\\slider_center-63584.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\iphone-style-checkboxes\\slider_center-63584.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\iphone-style-checkboxes\\slider_left-63584.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\iphone-style-checkboxes\\slider_left-63584.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\iphone-style-checkboxes\\slider_right-63584.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\iphone-style-checkboxes\\slider_right-63584.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\progress.gif",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\progress.gif"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\quicklook-bg.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\quicklook-bg.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\quicklook-icons.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\quicklook-icons.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\quote.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\quote.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\resize.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\resize.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\slider_r8.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\slider_r8.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\spinner-mini.gif",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\spinner-mini.gif"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\sprite.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\sprite.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\timeline-bg.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\timeline-bg.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\timeline-left-arrow.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\timeline-left-arrow.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\timeline-left-arrow@2x.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\timeline-left-arrow@2x.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\timeline-right-arrow.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\timeline-right-arrow.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\timeline-right-arrow@2x.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\timeline-right-arrow@2x.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\toolbar.gif",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\toolbar.gif"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\toolbar.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\toolbar.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\ui-bg_flat_0_aaaaaa_40x100.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\ui-bg_flat_0_aaaaaa_40x100.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\ui-bg_flat_75_ffffff_40x100.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\ui-bg_flat_75_ffffff_40x100.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\ui-bg_glass_55_fbf9ee_1x400.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\ui-bg_glass_55_fbf9ee_1x400.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\ui-bg_glass_65_ffffff_1x400.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\ui-bg_glass_65_ffffff_1x400.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\ui-bg_glass_75_dadada_1x400.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\ui-bg_glass_75_dadada_1x400.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\ui-bg_glass_75_e6e6e6_1x400.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\ui-bg_glass_75_e6e6e6_1x400.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\ui-bg_glass_95_fef1ec_1x400.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\ui-bg_glass_95_fef1ec_1x400.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\ui-bg_highlight-soft_75_cccccc_1x100.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\ui-bg_highlight-soft_75_cccccc_1x100.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\ui-icons_222222_256x240.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\ui-icons_222222_256x240.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\ui-icons_2e83ff_256x240.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\ui-icons_2e83ff_256x240.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\ui-icons_454545_256x240.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\ui-icons_454545_256x240.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\ui-icons_888888_256x240.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\ui-icons_888888_256x240.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\ui-icons_cd0a0a_256x240.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\ui-icons_cd0a0a_256x240.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\img\\uploadify-cancel.png",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\img\\uploadify-cancel.png"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\index.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\index.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\counter.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\counter.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\custom.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\excanvas.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\excanvas.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\fullcalendar.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery-1.9.1.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery-1.9.1.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery-migrate-1.0.0.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery-migrate-1.0.0.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery-ui-1.10.0.custom.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery-ui-1.10.0.custom.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.chosen.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.chosen.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.cleditor.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.cleditor.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.elfinder.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.elfinder.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.flot.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.flot.resize.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.flot.resize.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.flot.stack.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.flot.stack.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.gritter.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.gritter.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.imagesloaded.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.imagesloaded.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.iphone.toggle.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.iphone.toggle.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.knob.modified.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.knob.modified.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.masonry.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.masonry.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.noty.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.noty.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.raty.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.raty.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.ui.touch-punch.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.ui.touch-punch.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.uniform.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.uniform.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\jquery.uploadify-3.1.min.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\jquery.uploadify-3.1.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\modernizr.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\modernizr.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\js\\retina.js",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\js\\retina.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\login.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\login.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\messages.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\messages.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\submenu.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\submenu.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\submenu2.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\submenu2.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\submenu3.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\submenu3.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\table.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\table.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\tasks.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\tasks.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\typography.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\typography.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\ui.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\ui.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\TemplateAdmin\\widgets.html",
+      "PackagePath": "staticwebassets\\TemplateAdmin\\widgets.html"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\NguoiDungCssLayout\\NguoiDungCssLayout.css",
+      "PackagePath": "staticwebassets\\css\\NguoiDungCssLayout\\NguoiDungCssLayout.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\NguoiDungCssLayout\\fonts.css",
+      "PackagePath": "staticwebassets\\css\\NguoiDungCssLayout\\fonts.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\NguoiDungCssLayout\\screen.css",
+      "PackagePath": "staticwebassets\\css\\NguoiDungCssLayout\\screen.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\NivoSlider\\nivo-slider.css",
+      "PackagePath": "staticwebassets\\css\\NivoSlider\\nivo-slider.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\TrangChuCss\\TrangChuCss.css",
+      "PackagePath": "staticwebassets\\css\\TrangChuCss\\TrangChuCss.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0.zip",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0.zip"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\fontawesome\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\css\\fontawesome\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\js\\NivoSlider\\jquery.nivo.slider.js",
+      "PackagePath": "staticwebassets\\js\\NivoSlider\\jquery.nivo.slider.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\js\\NivoSlider\\jquery.nivo.slider.pack.js",
+      "PackagePath": "staticwebassets\\js\\NivoSlider\\jquery.nivo.slider.pack.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\HinhAnhSP\\001.jpg",
+      "PackagePath": "staticwebassets\\lib\\HinhAnhSP\\001.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\HinhAnhSP\\002.jpg",
+      "PackagePath": "staticwebassets\\lib\\HinhAnhSP\\002.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\HinhAnhSP\\003.jpg",
+      "PackagePath": "staticwebassets\\lib\\HinhAnhSP\\003.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\HinhAnhSP\\004.jpg",
+      "PackagePath": "staticwebassets\\lib\\HinhAnhSP\\004.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\HinhAnh\\Anh1.jpg",
+      "PackagePath": "staticwebassets\\lib\\HinhAnh\\Anh1.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\HinhAnh\\Anh2.jpg",
+      "PackagePath": "staticwebassets\\lib\\HinhAnh\\Anh2.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\HinhAnh\\Anh3.jpg",
+      "PackagePath": "staticwebassets\\lib\\HinhAnh\\Anh3.jpg"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\CuaHangSach\\WebSiteBanSach\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebSiteBanSach.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebSiteBanSach.props",
+      "PackagePath": "build\\WebSiteBanSach.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebSiteBanSach.props",
+      "PackagePath": "buildMultiTargeting\\WebSiteBanSach.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebSiteBanSach.props",
+      "PackagePath": "buildTransitive\\WebSiteBanSach.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

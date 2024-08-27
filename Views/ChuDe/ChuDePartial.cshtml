@@ -1,0 +1,7 @@
+﻿@using WebSiteBanSach.Models;
+@model List<ChuDe>
+@foreach (var item in Model)
+{
+	<a href="@Url.Action("Index", "ChuDe", new {@machude = item.MaChuDe})" class="button button-submit">@item.TenChuDe</a>
+}
+<a href="@Url.Action("DanhMucChuDe","ChuDe")" class="button button-submit>Chủ Đề Khác</a>

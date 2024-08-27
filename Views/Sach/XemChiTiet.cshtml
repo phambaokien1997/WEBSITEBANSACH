@@ -1,0 +1,21 @@
+﻿@using WebSiteBanSach.ViewModel;
+@model SachVaChuDe
+@{
+    ViewData["Title"] = "XemChiTiet";
+    Layout = "~/Views/Shared/NguoiDungLayout.cshtml";
+}
+<link href="~/css/nguoidungcsslayout/nguoidungcsslayout.css" rel="stylesheet" />
+<h1>XemChiTiet</h1>
+<div class="page-detail">
+    @*Thong Tin Sach Chi Tiet*@
+    <div><img src="@Url.Content("~/lib/HinhAnhSP/"+Model.Sachs.AnhBia)" width="500px" height="500px" /></div>
+    <div>Mã Sách: @Model.Sachs.MaSach</div>
+    <div>Tên Sách: @Model.Sachs.TenSach</div>
+    <div>Thông Tin: @Model.Sachs.GiaBan</div>
+    <div>Chủ Đề : @Model.ChuDes.TenChuDe</div>
+    <form method="post" action="@Url.Action("ThemGioHang", "GioHang")">
+        <input type="hidden" name="iMaSach" value="@Model.Sachs.MaSach" />
+        <input type="hidden" name="stringUrl" value="@ViewBag.CurrentUrl" />
+        <button type="submit">Mua hàng</button>
+    </form>
+</div>
